@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jonm.dao.AboutMapper">
+
+    <resultMap id="aboutinfo" type="com.jonm.entity.About">
+        <id property="id" column="id"/>
+        <result property="nameEn" column="name_en"/>
+        <result property="nameZh" column="name_zh"/>
+        <result property="value" column="value"/>
+    </resultMap>
+
+    <!--查询关于我设置-->
+    <select id="getList" resultMap="aboutinfo">
+        select id,name_en,name_zh,value from about
+    </select>
+
+    <!--更新关于我设置-->
+    <update id="updateAbout">
+        update about set value=#{value} where name_en=#{nameEn}
+    </update>
+
+    <!--查询关于我页面评论开关状态-->
+    <select id="getAboutCommentEnabled" resultType="java.lang.String">
+        select value from about where name_en="commentEnabled"
+    </select>
+</mapper>

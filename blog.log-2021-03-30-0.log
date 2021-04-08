@@ -1,0 +1,232 @@
+"2021-03-30 === [main] == INFO  == com.jonm.BlogApiApplication == Starting BlogApiApplication using Java 1.8.0_261 on Jonm with PID 21808 (D:\Users\lhz17\Desktop\01\NBlog-master\blog-api\target\classes started by lhz17 in D:\Users\lhz17\Desktop\01\NBlog-master\blog-api)
+""2021-03-30 === [main] == DEBUG == com.jonm.BlogApiApplication == Running with Spring Boot v2.4.0, Spring v5.3.1
+""2021-03-30 === [main] == INFO  == com.jonm.BlogApiApplication == The following profiles are active: dev
+""2021-03-30 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Multiple Spring Data modules found, entering strict repository configuration mode!
+""2021-03-30 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2021-03-30 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Finished Spring Data repository scanning in 108 ms. Found 0 Redis repository interfaces.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-03-30 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-03-30 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-03-30 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-03-30 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8090 (http)
+""2021-03-30 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+""2021-03-30 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2021-03-30 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+""2021-03-30 === [main] == INFO  == o.s.b.w.s.c.ServletWebServerApplicationContext == Root WebApplicationContext: initialization completed in 3488 ms
+""2021-03-30 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == - Loaded 90 files in 1278 msec using expression: classpath*:UserAgents/**/*.yaml
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == /-----------------------------------------------------------\
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == +-----------------------------------------------------------+
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | For more information: https://yauaa.basjes.nl             |
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == \-----------------------------------------------------------/
+""2021-03-30 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-03-30 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Building all needed matchers for the requested 11 fields.
+""2021-03-30 === [main] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} inited
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==>  Preparing: select id, views from blog
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==> Parameters: 
+""2021-03-30 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==    Columns: id, views
+""2021-03-30 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==        Row: 1, 0
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == <==      Total: 1
+""2021-03-30 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Using default implementation for ThreadExecutor
+""2021-03-30 === [main] == INFO  == org.quartz.core.SchedulerSignalerImpl == Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+""2021-03-30 === [main] == INFO  == org.quartz.core.QuartzScheduler == Quartz Scheduler v.2.3.2 created.
+""2021-03-30 === [main] == INFO  == org.quartz.simpl.RAMJobStore == RAMJobStore initialized.
+""2021-03-30 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+""2021-03-30 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+""2021-03-30 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler version: 2.3.2
+""2021-03-30 === [main] == INFO  == org.quartz.core.QuartzScheduler == JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3a69c81e
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==> Parameters: 
+""2021-03-30 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==    Columns: job_id, bean_name, method_name, params, cron, status, remark, create_time
+""2021-03-30 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 1, redisSyncScheduleTask, syncBlogViewsToDatabase, , 0 0 1 * * ?, 1, 每天凌晨一点，从Redis将博客浏览量同步到数据库, 2020-11-17 23:45:42
+""2021-03-30 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 2, visitorSyncScheduleTask, syncVisitInfoToDatabase, , 0 0 0 * * ?, 1, 清空当天Redis访客标识，记录当天的PV和UV，更新当天所有访客的PV和最后访问时间，更新城市新增访客UV数, 2021-02-05 08:14:28
+""2021-03-30 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == <==      Total: 2
+""2021-03-30 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2021-03-30 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'applicationTaskExecutor'
+""2021-03-30 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3532f633, org.springframework.security.web.context.SecurityContextPersistenceFilter@1de618b3, org.springframework.security.web.header.HeaderWriterFilter@cbbc0ac, org.springframework.web.filter.CorsFilter@6d49bd08, org.springframework.security.web.authentication.logout.LogoutFilter@612c4c10, com.jonm.config.JwtLoginFilter@19e86461, com.jonm.config.JwtFilter@31475919, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72bec302, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@370d49d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e6b26c, org.springframework.security.web.session.SessionManagementFilter@6ca257de, org.springframework.security.web.access.ExceptionTranslationFilter@427a4d68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44264fb6]
+""2021-03-30 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8090 (http) with context path ''
+""2021-03-30 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+""2021-03-30 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+""2021-03-30 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: aboutUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: blogsUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: getBlogUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_2
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: commentsUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_3
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: friendsUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_4
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_2
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: momentsUsingGET_1
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_5
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_6
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_7
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_8
+""2021-03-30 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_9
+""2021-03-30 === [main] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Starting Quartz Scheduler now
+""2021-03-30 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED started.
+""2021-03-30 === [main] == INFO  == com.jonm.BlogApiApplication == Started BlogApiApplication in 21.045 seconds (JVM running for 24.412)
+""2021-03-30 === [http-nio-8090-exec-1] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-03-30 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+""2021-03-30 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 1 ms
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == ==>  Preparing: select count(*) from visit_log where date(create_time)=curdate()
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==        Row: 0
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.countBlog == ==>  Preparing: select count(*) from blog
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.countBlog == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.BlogMapper.countBlog == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.BlogMapper.countBlog == <==        Row: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.countBlog == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CommentMapper.countComment == ==>  Preparing: select count(*) from comment
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CommentMapper.countComment == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.CommentMapper.countComment == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.CommentMapper.countComment == <==        Row: 2
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CommentMapper.countComment == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == ==>  Preparing: select category_id, count(category_id) as blog_count from blog group by category_id
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==    Columns: category_id, blog_count
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==        Row: 2, 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==>  Preparing: select id, category_name from category order by id desc
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==    Columns: id, category_name
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 2, 个人项目
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 1, 项目
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == ==>  Preparing: select tag_id, count(tag_id) as blog_count from blog_tag group by tag_id
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagBlogCount == <==    Columns: tag_id, blog_count
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagBlogCount == <==        Row: 2, 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==>  Preparing: select id, tag_name, color from tag order by id desc
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagList == <==    Columns: id, tag_name, color
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 2, Mysql, null
+""2021-03-30 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 1, Java, null
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == ==>  Preparing: select pv, uv, date from visit_record order by id desc limit ?
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == ==> Parameters: 7(Integer)
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == <==      Total: 0
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == ==>  Preparing: select city, uv from city_visitor order by uv desc
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == <==      Total: 0
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==>  Preparing: select id, category_name from category order by id desc
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==    Columns: id, category_name
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 2, 个人项目
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 1, 项目
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==>  Preparing: select id, tag_name, color from tag order by id desc
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.TagMapper.getTagList == <==    Columns: id, tag_name, color
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 2, Mysql, null
+""2021-03-30 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 1, Java, null
+""2021-03-30 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == ==>  Preparing: select count(*) from visit_log where date(create_time)=curdate()
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==        Row: 0
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitLogMapper.countVisitLogByToday == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.countBlog == ==>  Preparing: select count(*) from blog
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.countBlog == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.countBlog == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.countBlog == <==        Row: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.countBlog == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CommentMapper.countComment == ==>  Preparing: select count(*) from comment
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CommentMapper.countComment == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.CommentMapper.countComment == <==    Columns: count(*)
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.CommentMapper.countComment == <==        Row: 2
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CommentMapper.countComment == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == ==>  Preparing: select category_id, count(category_id) as blog_count from blog group by category_id
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==    Columns: category_id, blog_count
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==        Row: 2, 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getCategoryBlogCountList == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==>  Preparing: select id, category_name from category order by id desc
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==    Columns: id, category_name
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 2, 个人项目
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 1, 项目
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == ==>  Preparing: select tag_id, count(tag_id) as blog_count from blog_tag group by tag_id
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagBlogCount == <==    Columns: tag_id, blog_count
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagBlogCount == <==        Row: 2, 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagBlogCount == <==      Total: 1
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==>  Preparing: select id, tag_name, color from tag order by id desc
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagList == <==    Columns: id, tag_name, color
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 2, Mysql, null
+""2021-03-30 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 1, Java, null
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == ==>  Preparing: select pv, uv, date from visit_record order by id desc limit ?
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == ==> Parameters: 7(Integer)
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == c.j.d.VisitRecordMapper.getVisitRecordListByLimit == <==      Total: 0
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == ==>  Preparing: select city, uv from city_visitor order by uv desc
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.CityVisitorMapper.getCityVisitorList == <==      Total: 0
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==>  Preparing: select id, category_name from category order by id desc
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==    Columns: id, category_name
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 2, 个人项目
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.CategoryMapper.getCategoryList == <==        Row: 1, 项目
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==>  Preparing: select id, tag_name, color from tag order by id desc
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.TagMapper.getTagList == ==> Parameters: 
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.TagMapper.getTagList == <==    Columns: id, tag_name, color
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 2, Mysql, null
+""2021-03-30 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.TagMapper.getTagList == <==        Row: 1, Java, null
+""2021-03-30 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.TagMapper.getTagList == <==      Total: 2
+""2021-03-30 === [http-nio-8090-exec-8] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-03-30 === [http-nio-8090-exec-8] == INFO  == com.jonm.util.fastdfs.FastDFSClient == File Name: 3.pngFile Length:744941
+""2021-03-30 === [http-nio-8090-exec-8] == INFO  == com.jonm.util.fastdfs.FastDFSClient == upload_file time used:4701 ms
+""2021-03-30 === [http-nio-8090-exec-8] == INFO  == com.jonm.util.fastdfs.FastDFSClient == upload file successfully!!!group_name:group1, remoteFileName: M00/00/00/n0t7aWBjRSSAEMtRAAtd7UF4NSg190.png
+""2021-03-30 === [http-nio-8090-exec-8] == INFO  == com.jonm.service.impl.UploadServiceImpl == path:    --------->159.75.123.105:8888/group1/M00/00/00/n0t7aWBjRSSAEMtRAAtd7UF4NSg190.png
+""2021-03-30 === [task-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Initializing Analyzer data structures
+""2021-03-30 === [task-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Built in 1502 msec : Hashmap 114881, Ranges map:2900
+""2021-03-30 === [task-1] == DEBUG == com.jonm.dao.OperationLogMapper.saveOperationLog == ==>  Preparing: insert into operation_log (username, uri, method, param, description, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-03-30 === [task-1] == DEBUG == com.jonm.dao.OperationLogMapper.saveOperationLog == ==> Parameters: Admin(String), /admin/uploadimages(String), POST(String), {}(String), 图片上传(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 264683(Integer), 2021-03-30 23:38:57.738(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-03-30 === [task-1] == DEBUG == com.jonm.dao.OperationLogMapper.saveOperationLog == <==    Updates: 1
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Shutting down ExecutorService 'applicationTaskExecutor'
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Shutting down Quartz Scheduler
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closing ...
+""2021-03-30 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closed
+"

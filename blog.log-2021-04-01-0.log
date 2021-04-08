@@ -1,0 +1,1210 @@
+"2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == Starting BlogApiApplication using Java 1.8.0_261 on Jonm with PID 6472 (D:\Users\lhz17\Desktop\01\NBlog-master\blog-api\target\classes started by lhz17 in D:\Users\lhz17\Desktop\01\NBlog-master\blog-api)
+""2021-04-01 === [main] == DEBUG == com.jonm.BlogApiApplication == Running with Spring Boot v2.4.0, Spring v5.3.1
+""2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == The following profiles are active: dev
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Multiple Spring Data modules found, entering strict repository configuration mode!
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Finished Spring Data repository scanning in 80 ms. Found 0 Redis repository interfaces.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8090 (http)
+""2021-04-01 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+""2021-04-01 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2021-04-01 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+""2021-04-01 === [main] == INFO  == o.s.b.w.s.c.ServletWebServerApplicationContext == Root WebApplicationContext: initialization completed in 4272 ms
+""2021-04-01 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == - Loaded 90 files in  661 msec using expression: classpath*:UserAgents/**/*.yaml
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == /-----------------------------------------------------------\
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == +-----------------------------------------------------------+
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | For more information: https://yauaa.basjes.nl             |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == \-----------------------------------------------------------/
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-04-01 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Building all needed matchers for the requested 11 fields.
+""2021-04-01 === [main] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} inited
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==>  Preparing: select id, views from blog
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==> Parameters: 
+""2021-04-01 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==    Columns: id, views
+""2021-04-01 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==        Row: 1, 0
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == <==      Total: 1
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Using default implementation for ThreadExecutor
+""2021-04-01 === [main] == INFO  == org.quartz.core.SchedulerSignalerImpl == Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Quartz Scheduler v.2.3.2 created.
+""2021-04-01 === [main] == INFO  == org.quartz.simpl.RAMJobStore == RAMJobStore initialized.
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler version: 2.3.2
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4877731d
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==> Parameters: 
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==    Columns: job_id, bean_name, method_name, params, cron, status, remark, create_time
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 1, redisSyncScheduleTask, syncBlogViewsToDatabase, , 0 0 1 * * ?, 1, 每天凌晨一点，从Redis将博客浏览量同步到数据库, 2020-11-17 23:45:42
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 2, visitorSyncScheduleTask, syncVisitInfoToDatabase, , 0 0 0 * * ?, 1, 清空当天Redis访客标识，记录当天的PV和UV，更新当天所有访客的PV和最后访问时间，更新城市新增访客UV数, 2021-02-05 08:14:28
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == <==      Total: 2
+""2021-04-01 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2021-04-01 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService
+""2021-04-01 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'sendEmilTaskExecutor'
+""2021-04-01 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3947bad4, org.springframework.security.web.context.SecurityContextPersistenceFilter@b068ddf, org.springframework.security.web.header.HeaderWriterFilter@d22c288, org.springframework.web.filter.CorsFilter@64d691b2, org.springframework.security.web.authentication.logout.LogoutFilter@1531fbc8, com.jonm.config.JwtLoginFilter@6074f8f9, com.jonm.config.JwtFilter@c083cec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ee4c028, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b8812fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@81da6a3, org.springframework.security.web.session.SessionManagementFilter@7f0e0db3, org.springframework.security.web.access.ExceptionTranslationFilter@fff33b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55feda3f]
+""2021-04-01 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8090 (http) with context path ''
+""2021-04-01 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+""2021-04-01 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+""2021-04-01 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: aboutUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: blogsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: getBlogUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_2
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: commentsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_3
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: friendsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_4
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_2
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: momentsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_5
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_6
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_7
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_8
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_9
+""2021-04-01 === [main] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Starting Quartz Scheduler now
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED started.
+""2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == Started BlogApiApplication in 17.893 seconds (JVM running for 28.624)
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 4 ms
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [lettuce-eventExecutorLoop-1-5] == INFO  == io.lettuce.core.protocol.ConnectionWatchdog == Reconnecting, last destination was /159.75.123.105:6379
+""2021-04-01 === [lettuce-nioEventLoop-4-2] == INFO  == io.lettuce.core.protocol.ReconnectionHandler == Reconnected to 159.75.123.105:6379
+""2021-04-01 === [http-nio-8090-exec-3] == ERROR == com.jonm.handler.ControllerExceptionHandler == Request URL : http://localhost:8090/site, Exception :
+"org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:272)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:800)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:70)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:267)
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:57)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:229)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+	at com.jonm.service.impl.RedisServiceImpl.getMapByValue(RedisServiceImpl.java:73)
+	at com.jonm.service.impl.RedisServiceImpl$$FastClassBySpringCGLIB$$f5f6c692.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.RedisServiceImpl$$EnhancerBySpringCGLIB$$6103d8c4.getMapByValue(<generated>)
+	at com.jonm.service.impl.RedisServiceImpl$$FastClassBySpringCGLIB$$f5f6c692.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.RedisServiceImpl$$EnhancerBySpringCGLIB$$b5a0acae.getMapByValue(<generated>)
+	at com.jonm.service.impl.SiteSettingServiceImpl.getSiteInfo(SiteSettingServiceImpl.java:65)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$FastClassBySpringCGLIB$$57805c44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$EnhancerBySpringCGLIB$$3bc623d3.getSiteInfo(<generated>)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$FastClassBySpringCGLIB$$57805c44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$EnhancerBySpringCGLIB$$d1715fc9.getSiteInfo(<generated>)
+	at com.jonm.controller.IndexController.site(IndexController.java:43)
+	at com.jonm.controller.IndexController$$FastClassBySpringCGLIB$$f0fdad99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.controller.IndexController$$EnhancerBySpringCGLIB$$6fb04294.site(<generated>)
+	at com.jonm.controller.IndexController$$FastClassBySpringCGLIB$$f0fdad99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.controller.IndexController$$EnhancerBySpringCGLIB$$ade8c75d.site(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.jonm.config.JwtFilter.doFilter(JwtFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at io.lettuce.core.internal.Exceptions.bubble(Exceptions.java:83)
+	at io.lettuce.core.internal.Futures.awaitOrCancel(Futures.java:250)
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:75)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy115.get(Unknown Source)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:68)
+	... 172 common frames omitted
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+"2021-04-01 === [sendSimpleMail-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Initializing Analyzer data structures
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM blog AS b LEFT JOIN category AS c ON b.category_id = c.id WHERE b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == ==>  Preparing: SELECT b.id, b.title, b.description, b.is_top, b.create_time, b.views, b.words, b.read_time, b.password, c.category_name FROM blog AS b LEFT JOIN category AS c ON b.category_id = c.id WHERE b.is_published = true order by is_top desc, create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==    Columns: id, title, description, is_top, create_time, views, words, read_time, password, category_name
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==        Row: 1, Test, <<BLOB>>, 0, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Built in 1194 msec : Hashmap 114881, Ranges map:2900
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.ExceptionLogMapper.saveExceptionLog == ==>  Preparing: insert into exception_log (uri, method, param, description, error, ip, ip_source, os, browser, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.ExceptionLogMapper.saveExceptionLog == ==> Parameters: /site(String), GET(String), {}(String), (String), org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:272)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:800)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:70)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:267)
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:57)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:229)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+	at com.jonm.service.impl.RedisServiceImpl.getMapByValue(RedisServiceImpl.java:73)
+	at com.jonm.service.impl.RedisServiceImpl$$FastClassBySpringCGLIB$$f5f6c692.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.RedisServiceImpl$$EnhancerBySpringCGLIB$$6103d8c4.getMapByValue(<generated>)
+	at com.jonm.service.impl.RedisServiceImpl$$FastClassBySpringCGLIB$$f5f6c692.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.RedisServiceImpl$$EnhancerBySpringCGLIB$$b5a0acae.getMapByValue(<generated>)
+	at com.jonm.service.impl.SiteSettingServiceImpl.getSiteInfo(SiteSettingServiceImpl.java:65)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$FastClassBySpringCGLIB$$57805c44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$EnhancerBySpringCGLIB$$3bc623d3.getSiteInfo(<generated>)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$FastClassBySpringCGLIB$$57805c44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.service.impl.SiteSettingServiceImpl$$EnhancerBySpringCGLIB$$d1715fc9.getSiteInfo(<generated>)
+	at com.jonm.controller.IndexController.site(IndexController.java:43)
+	at com.jonm.controller.IndexController$$FastClassBySpringCGLIB$$f0fdad99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.controller.IndexController$$EnhancerBySpringCGLIB$$6fb04294.site(<generated>)
+	at com.jonm.controller.IndexController$$FastClassBySpringCGLIB$$f0fdad99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jonm.controller.IndexController$$EnhancerBySpringCGLIB$$ade8c75d.site(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.jonm.config.JwtFilter.doFilter(JwtFilter.java:35)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at io.lettuce.core.internal.Exceptions.bubble(Exceptions.java:83)
+	at io.lettuce.core.internal.Futures.awaitOrCancel(Futures.java:250)
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:75)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy115.get(Unknown Source)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:68)
+	... 172 more
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 2021-04-01 09:47:11.447(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitorMapper.hasUUID == ==>  Preparing: select ifnull((select 1 from visitor where uuid=? limit 1), 0)
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitorMapper.hasUUID == ==> Parameters: 897815bc-568b-41f9-82ee-50639a7263a9(String)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.ExceptionLogMapper.saveExceptionLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.VisitorMapper.hasUUID == <==    Columns: ifnull((select 1 from visitor where uuid='897815bc-568b-41f9-82ee-50639a7263a9' limit 1), 0)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.VisitorMapper.hasUUID == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.VisitorMapper.hasUUID == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: 897815bc-568b-41f9-82ee-50639a7263a9(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 25161(Integer), 2021-04-01 09:47:15.106(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == ==>  Preparing: select id,name_en,name_zh,value,type from site_setting
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==    Columns: id, name_en, name_zh, value, type
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 1, webTitleSuffix, 网页标题后缀, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 2, blogName, 博客名称, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 3, footerImgTitle, 页脚图片标题, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 4, footerImgUrl, 页脚图片路径, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 5, copyright, Copyright, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 6, beian, ICP备案号, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 7, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 8, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 9, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 10, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 11, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 12, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 13, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 14, avatar, 头像路径, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 15, name, 昵称, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 16, rollText, 滚动个签, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 17, github, GitHub地址, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 18, qq, QQ链接, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 19, bilibili, bilibili链接, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 20, netease, 网易云音乐, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 21, email, email, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 22, favorite, 自定义, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 24, favorite, 自定义, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 25, reward, 赞赏码路径, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 26, commentAdminFlag, 博主评论标识, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 27, friendContent, 友链页面信息, <<BLOB>>, 4
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 28, friendCommentEnabled, 友链页面评论开关, <<BLOB>>, 4
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == <==      Total: 27
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == ==>  Preparing: SELECT count(0) FROM blog WHERE is_published = true AND is_recommend = true
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == ==>  Preparing: select id, title, password from blog where is_published=true and is_recommend=true order by create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == ==> Parameters: 3(Integer)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==    Columns: id, title, password
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==        Row: 1, Test, 
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: 897815bc-568b-41f9-82ee-50639a7263a9(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 142(Integer), 2021-04-01 09:47:57.378(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == ==>  Preparing: select category_name from category order by id desc
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==    Columns: category_name
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==        Row: 个人项目
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==        Row: 项目
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == <==      Total: 2
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == ==>  Preparing: select tag_name, color from tag order by id desc
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==        Row: Java, yellow
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == <==      Total: 2
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==>  Preparing: select b.id, b.title, b.password, c.category_name from blog as b left join category as c on b.category_id=c.id where b.is_published=true order by rand() limit ?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==    Columns: id, title, password, category_name
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==        Row: 1, Test, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Shutting down ExecutorService 'sendEmilTaskExecutor'
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Shutting down Quartz Scheduler
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closing ...
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closed
+""2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == Starting BlogApiApplication using Java 1.8.0_261 on Jonm with PID 13564 (D:\Users\lhz17\Desktop\01\NBlog-master\blog-api\target\classes started by lhz17 in D:\Users\lhz17\Desktop\01\NBlog-master\blog-api)
+""2021-04-01 === [main] == DEBUG == com.jonm.BlogApiApplication == Running with Spring Boot v2.4.0, Spring v5.3.1
+""2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == The following profiles are active: dev
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Multiple Spring Data modules found, entering strict repository configuration mode!
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2021-04-01 === [main] == INFO  == o.s.d.r.config.RepositoryConfigurationDelegate == Finished Spring Data repository scanning in 101 ms. Found 0 Redis repository interfaces.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == WARN  == org.mybatis.spring.mapper.ClassPathMapperScanner == Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker == Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-04-01 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat initialized with port(s): 8090 (http)
+""2021-04-01 === [main] == INFO  == org.apache.catalina.core.StandardService == Starting service [Tomcat]
+""2021-04-01 === [main] == INFO  == org.apache.catalina.core.StandardEngine == Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2021-04-01 === [main] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring embedded WebApplicationContext
+""2021-04-01 === [main] == INFO  == o.s.b.w.s.c.ServletWebServerApplicationContext == Root WebApplicationContext: initialization completed in 2521 ms
+""2021-04-01 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == - Loaded 90 files in  623 msec using expression: classpath*:UserAgents/**/*.yaml
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == /-----------------------------------------------------------\
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == +-----------------------------------------------------------+
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | For more information: https://yauaa.basjes.nl             |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == \-----------------------------------------------------------/
+""2021-04-01 === [main] == INFO  == nl.basjes.parse.useragent.utils.YauaaVersion == 
+""2021-04-01 === [main] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Building all needed matchers for the requested 11 fields.
+""2021-04-01 === [main] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} inited
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==>  Preparing: select id, views from blog
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == ==> Parameters: 
+""2021-04-01 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==    Columns: id, views
+""2021-04-01 === [main] == TRACE == com.jonm.dao.BlogMapper.getBlogViewsList == <==        Row: 1, 0
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.BlogMapper.getBlogViewsList == <==      Total: 1
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Using default implementation for ThreadExecutor
+""2021-04-01 === [main] == INFO  == org.quartz.core.SchedulerSignalerImpl == Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Quartz Scheduler v.2.3.2 created.
+""2021-04-01 === [main] == INFO  == org.quartz.simpl.RAMJobStore == RAMJobStore initialized.
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+""2021-04-01 === [main] == INFO  == org.quartz.impl.StdSchedulerFactory == Quartz scheduler version: 2.3.2
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7479b19a
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == ==> Parameters: 
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==    Columns: job_id, bean_name, method_name, params, cron, status, remark, create_time
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 1, redisSyncScheduleTask, syncBlogViewsToDatabase, , 0 0 1 * * ?, 1, 每天凌晨一点，从Redis将博客浏览量同步到数据库, 2020-11-17 23:45:42
+""2021-04-01 === [main] == TRACE == com.jonm.dao.ScheduleJobMapper.getJobList == <==        Row: 2, visitorSyncScheduleTask, syncVisitInfoToDatabase, , 0 0 0 * * ?, 1, 清空当天Redis访客标识，记录当天的PV和UV，更新当天所有访客的PV和最后访问时间，更新城市新增访客UV数, 2021-02-05 08:14:28
+""2021-04-01 === [main] == DEBUG == com.jonm.dao.ScheduleJobMapper.getJobList == <==      Total: 2
+""2021-04-01 === [main] == INFO  == s.d.s.w.PropertySourcedRequestMappingHandlerMapping == Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2021-04-01 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService
+""2021-04-01 === [main] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Initializing ExecutorService 'sendEmilTaskExecutor'
+""2021-04-01 === [main] == INFO  == o.s.security.web.DefaultSecurityFilterChain == Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69924070, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bbb00a4, org.springframework.security.web.header.HeaderWriterFilter@3413effc, org.springframework.web.filter.CorsFilter@496a514f, org.springframework.security.web.authentication.logout.LogoutFilter@13e6b26c, com.jonm.config.JwtLoginFilter@430e9d37, com.jonm.config.JwtFilter@4968deb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3005133e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712ce4f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32828624, org.springframework.security.web.session.SessionManagementFilter@2f84848e, org.springframework.security.web.access.ExceptionTranslationFilter@79462469, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e61695b]
+""2021-04-01 === [main] == INFO  == o.s.boot.web.embedded.tomcat.TomcatWebServer == Tomcat started on port(s): 8090 (http) with context path ''
+""2021-04-01 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Context refreshed
+""2021-04-01 === [main] == INFO  == s.d.s.web.plugins.DocumentationPluginsBootstrapper == Found 1 custom documentation plugin(s)
+""2021-04-01 === [main] == INFO  == s.d.spring.web.scanners.ApiListingReferenceScanner == Scanning for api listing references
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: aboutUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: blogsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: getBlogUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_2
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: commentsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_3
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: friendsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_4
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: updatePublishedUsingPUT_2
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: momentsUsingGET_1
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_5
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_6
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_7
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_8
+""2021-04-01 === [main] == INFO  == s.d.s.w.r.operation.CachingOperationNameGenerator == Generating unique operation named: deleteUsingDELETE_9
+""2021-04-01 === [main] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Starting Quartz Scheduler now
+""2021-04-01 === [main] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED started.
+""2021-04-01 === [main] == INFO  == com.jonm.BlogApiApplication == Started BlogApiApplication in 9.566 seconds (JVM running for 11.342)
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] == Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Initializing Servlet 'dispatcherServlet'
+""2021-04-01 === [http-nio-8090-exec-1] == INFO  == org.springframework.web.servlet.DispatcherServlet == Completed initialization in 1 ms
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == ==>  Preparing: select id,name_en,name_zh,value,type from site_setting
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==    Columns: id, name_en, name_zh, value, type
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 1, webTitleSuffix, 网页标题后缀, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 2, blogName, 博客名称, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 3, footerImgTitle, 页脚图片标题, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 4, footerImgUrl, 页脚图片路径, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 5, copyright, Copyright, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 6, beian, ICP备案号, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 7, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 8, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 9, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 10, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 11, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 12, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 13, badge, 徽标, <<BLOB>>, 2
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 14, avatar, 头像路径, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 15, name, 昵称, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 16, rollText, 滚动个签, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 17, github, GitHub地址, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 18, qq, QQ链接, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 19, bilibili, bilibili链接, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 20, netease, 网易云音乐, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 21, email, email, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 22, favorite, 自定义, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 24, favorite, 自定义, <<BLOB>>, 3
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 25, reward, 赞赏码路径, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 26, commentAdminFlag, 博主评论标识, <<BLOB>>, 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 27, friendContent, 友链页面信息, <<BLOB>>, 4
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.SiteSettingMapper.getList == <==        Row: 28, friendCommentEnabled, 友链页面评论开关, <<BLOB>>, 4
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.SiteSettingMapper.getList == <==      Total: 27
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM blog AS b LEFT JOIN category AS c ON b.category_id = c.id WHERE b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == ==>  Preparing: SELECT b.id, b.title, b.description, b.is_top, b.create_time, b.views, b.words, b.read_time, b.password, c.category_name FROM blog AS b LEFT JOIN category AS c ON b.category_id = c.id WHERE b.is_published = true order by is_top desc, create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==    Columns: id, title, description, is_top, create_time, views, words, read_time, password, category_name
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==        Row: 1, Test, <<BLOB>>, 0, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.jonm.dao.BlogMapper.getBlogInfoListByIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == ==>  Preparing: SELECT count(0) FROM blog WHERE is_published = true AND is_recommend = true
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == ==>  Preparing: select id, title, password from blog where is_published=true and is_recommend=true order by create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == ==> Parameters: 3(Integer)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==    Columns: id, title, password
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==        Row: 1, Test, 
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getNewBlogListByIsPublishedAndIsRecommend == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == ==>  Preparing: select category_name from category order by id desc
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==    Columns: category_name
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==        Row: 个人项目
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.CategoryMapper.getCategoryNameList == <==        Row: 项目
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.CategoryMapper.getCategoryNameList == <==      Total: 2
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == ==>  Preparing: select tag_name, color from tag order by id desc
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListNotId == <==        Row: Java, yellow
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListNotId == <==      Total: 2
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==>  Preparing: select b.id, b.title, b.password, c.category_name from blog as b left join category as c on b.category_id=c.id where b.is_published=true order by rand() limit ?
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==    Columns: id, title, password, category_name
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==        Row: 1, Test, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Initializing Analyzer data structures
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == INFO  == n.b.p.useragent.AbstractUserAgentAnalyzerDirect == Built in 976 msec : Hashmap 114881, Ranges map:2900
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitorMapper.saveVisitor == ==>  Preparing: insert into visitor (uuid, ip, ip_source, os, browser, create_time, last_time, pv, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitorMapper.saveVisitor == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 2021-04-01 13:26:37.691(Timestamp), 2021-04-01 13:26:37.691(Timestamp), 0(Integer), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 287(Integer), 2021-04-01 13:26:37.755(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitorMapper.saveVisitor == <==    Updates: 1
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==>  Preparing: select b.id, b.title, b.password, c.category_name from blog as b left join category as c on b.category_id=c.id where b.is_published=true order by rand() limit ?
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==    Columns: id, title, password, category_name
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==        Row: 1, Test, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 90(Integer), 2021-04-01 13:26:56.811(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.words, b.read_time, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id=c.id) left join blog_tag as bt on b.id=bt.blog_id) left join tag as t on bt.tag_id=t.id) where b.id=? and b.is_published=true
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==    Columns: id, title, content, is_appreciation, is_comment_enabled, is_top, create_time, update_time, views, words, read_time, password, category_name, tag_name, color
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 1, 1, 0, 2021-03-28 17:00:05, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目, Mysql, red
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), Test(String), 文章标题：Test(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 299(Integer), 2021-04-01 13:27:03.576(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==>  Preparing: select is_comment_enabled from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==    Columns: is_comment_enabled
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==>  Preparing: select is_published from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==    Columns: is_published
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==>  Preparing: select password from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==    Columns: password
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==        Row: 
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=? and blog_id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 0(Integer), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 2
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.blog_id = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 0(Integer), 1(Long), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), -1(Long), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 1, 1321, 3123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:30, 0, , -1, null
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 2, 1321, 123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:35, 0, , 1, 1321
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 2(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 0
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==>  Preparing: select b.id, b.title, b.password, c.category_name from blog as b left join category as c on b.category_id=c.id where b.is_published=true order by rand() limit ?
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==    Columns: id, title, password, category_name
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==        Row: 1, Test, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 56(Integer), 2021-04-01 13:28:02.087(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.MomentMapper.getMomentList_COUNT == ==>  Preparing: SELECT count(0) FROM moment
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.MomentMapper.getMomentList_COUNT == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.MomentMapper.getMomentList_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.MomentMapper.getMomentList_COUNT == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.MomentMapper.getMomentList_COUNT == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /moments(String), GET(String), {"pageNum":1,"jwt":""}(String), 访问页面(String), 动态(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 30(Integer), 2021-04-01 13:28:19.064(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.dao.BlogMapper.getGroupYearMonthByIsPublished == ==>  Preparing: select date_format(create_time, "%Y年%m月") from blog where is_published=true group by date_format(create_time, "%Y年%m月") order by date_format(create_time, "%Y年%m月") desc
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.dao.BlogMapper.getGroupYearMonthByIsPublished == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == c.j.dao.BlogMapper.getGroupYearMonthByIsPublished == <==    Columns: date_format(create_time, "%Y年%m月")
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == c.j.dao.BlogMapper.getGroupYearMonthByIsPublished == <==        Row: 2021年03月
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.dao.BlogMapper.getGroupYearMonthByIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.d.B.getArchiveBlogListByYearMonthAndIsPublished == ==>  Preparing: select id, title, password, date_format(create_time, "%d日") as create_day from blog where date_format(create_time, "%Y年%m月")=? and is_published=true order by create_time desc
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.d.B.getArchiveBlogListByYearMonthAndIsPublished == ==> Parameters: 2021年03月(String)
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == c.j.d.B.getArchiveBlogListByYearMonthAndIsPublished == <==    Columns: id, title, password, create_day
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == c.j.d.B.getArchiveBlogListByYearMonthAndIsPublished == <==        Row: 1, Test, , 28日
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == c.j.d.B.getArchiveBlogListByYearMonthAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.countBlogByIsPublished == ==>  Preparing: select count(*) from blog where is_published=true
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.countBlogByIsPublished == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.dao.BlogMapper.countBlogByIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.dao.BlogMapper.countBlogByIsPublished == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.countBlogByIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /archives(String), GET(String), {}(String), 访问页面(String), 文章归档(String), (String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 123(Integer), 2021-04-01 13:28:21.019(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM category AS c LEFT JOIN blog AS b ON b.category_id = c.id WHERE c.category_name = ? AND b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished_COUNT == ==> Parameters: 个人项目(String)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished == ==>  Preparing: SELECT b.id, b.title, b.description, b.is_top, b.create_time, b.views, b.words, b.read_time, b.password, c.category_name FROM category AS c LEFT JOIN blog AS b ON b.category_id = c.id WHERE c.category_name = ? AND b.is_published = true order by is_top desc, create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished == ==> Parameters: 个人项目(String), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished == <==    Columns: id, title, description, is_top, create_time, views, words, read_time, password, category_name
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 0, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.B.getBlogInfoListByCategoryNameAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /category(String), GET(String), {"categoryName":"个人项目","pageNum":1}(String), 查看分类(String), 个人项目(String), 分类名称：个人项目，第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 99(Integer), 2021-04-01 13:28:23.08(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==>  Preparing: select b.id, b.title, b.password, c.category_name from blog as b left join category as c on b.category_id=c.id where b.is_published=true order by rand() limit ?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == ==> Parameters: 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==    Columns: id, title, password, category_name
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==        Row: 1, Test, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.B.getRandomBlogListByLimitNumAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 46(Integer), 2021-04-01 13:28:40.319(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.AboutMapper.getList == ==>  Preparing: select id,name_en,name_zh,value from about
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.AboutMapper.getList == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.AboutMapper.getList == <==    Columns: id, name_en, name_zh, value
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.AboutMapper.getList == <==        Row: 1, title, 标题, <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.AboutMapper.getList == <==        Row: 2, musicId, 网易云歌曲ID, <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.AboutMapper.getList == <==        Row: 3, content, 正文Markdown, <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.dao.AboutMapper.getList == <==        Row: 4, commentEnabled, 评论开关, <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == com.jonm.dao.AboutMapper.getList == <==      Total: 4
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /about(String), GET(String), {}(String), 访问页面(String), 关于我(String), (String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 76(Integer), 2021-04-01 13:28:41.89(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == ==>  Preparing: select value from about where name_en="commentEnabled"
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==    Columns: value
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==        Row: <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=?
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 1(Integer)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 1(Integer), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 45(Integer), 2021-04-01 13:29:07.361(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.words, b.read_time, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id=c.id) left join blog_tag as bt on b.id=bt.blog_id) left join tag as t on bt.tag_id=t.id) where b.id=? and b.is_published=true
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==    Columns: id, title, content, is_appreciation, is_comment_enabled, is_top, create_time, update_time, views, words, read_time, password, category_name, tag_name, color
+""2021-04-01 === [http-nio-8090-exec-7] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 1, 1, 0, 2021-03-28 17:00:05, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目, Mysql, red
+""2021-04-01 === [http-nio-8090-exec-7] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), Test(String), 文章标题：Test(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 61(Integer), 2021-04-01 13:29:09.332(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==>  Preparing: select is_comment_enabled from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==    Columns: is_comment_enabled
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==>  Preparing: select is_published from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==    Columns: is_published
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==>  Preparing: select password from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==    Columns: password
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==        Row: 
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=? and blog_id=?
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 0(Integer), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 2
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.blog_id = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 0(Integer), 1(Long), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), -1(Long), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 1, 1321, 3123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:30, 0, , -1, null
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 2, 1321, 123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:35, 0, , 1, 1321
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 2(Long)
+""2021-04-01 === [http-nio-8090-exec-8] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 0
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==> Parameters: Java(String)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /tag(String), GET(String), {"tagName":"Java","pageNum":1}(String), 查看标签(String), Java(String), 标签名称：Java，第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 39(Integer), 2021-04-01 13:29:23.785(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==> Parameters: Mysql(String)
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == ==>  Preparing: SELECT b.id, b.title, b.description, b.is_top, b.create_time, b.views, b.words, b.read_time, b.password, c.category_name FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true order by is_top desc, create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == ==> Parameters: Mysql(String), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==    Columns: id, title, description, is_top, create_time, views, words, read_time, password, category_name
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 0, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-4] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-4] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /tag(String), GET(String), {"tagName":"Mysql","pageNum":1}(String), 查看标签(String), Mysql(String), 标签名称：Mysql，第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 84(Integer), 2021-04-01 13:29:25.634(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==> Parameters: Java(String)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-1] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-1] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /tag(String), GET(String), {"tagName":"Java","pageNum":1}(String), 查看标签(String), Java(String), 标签名称：Java，第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 39(Integer), 2021-04-01 13:29:26.87(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-5] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==>  Preparing: SELECT count(0) FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == ==> Parameters: Mysql(String)
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == ==>  Preparing: SELECT b.id, b.title, b.description, b.is_top, b.create_time, b.views, b.words, b.read_time, b.password, c.category_name FROM (((tag AS t LEFT JOIN blog_tag AS bt ON t.id = bt.tag_id) LEFT JOIN blog AS b ON bt.blog_id = b.id) LEFT JOIN category AS c ON b.category_id = c.id) WHERE t.tag_name = ? AND b.is_published = true order by is_top desc, create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == ==> Parameters: Mysql(String), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==    Columns: id, title, description, is_top, create_time, views, words, read_time, password, category_name
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 0, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == c.j.d.B.getBlogInfoListByTagNameAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==>  Preparing: select t.tag_name, t.color from blog_tag as bt left join tag as t on bt.tag_id=t.id where bt.blog_id=?
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==    Columns: tag_name, color
+""2021-04-01 === [http-nio-8090-exec-2] == TRACE == com.jonm.dao.TagMapper.getTagListByBlogId == <==        Row: Mysql, red
+""2021-04-01 === [http-nio-8090-exec-2] == DEBUG == com.jonm.dao.TagMapper.getTagListByBlogId == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /tag(String), GET(String), {"tagName":"Mysql","pageNum":1}(String), 查看标签(String), Mysql(String), 标签名称：Mysql，第1页(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 76(Integer), 2021-04-01 13:29:27.705(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-2] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.words, b.read_time, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id=c.id) left join blog_tag as bt on b.id=bt.blog_id) left join tag as t on bt.tag_id=t.id) where b.id=? and b.is_published=true
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==    Columns: id, title, content, is_appreciation, is_comment_enabled, is_top, create_time, update_time, views, words, read_time, password, category_name, tag_name, color
+""2021-04-01 === [http-nio-8090-exec-5] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 1, 1, 0, 2021-03-28 17:00:05, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目, Mysql, red
+""2021-04-01 === [http-nio-8090-exec-5] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), Test(String), 文章标题：Test(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 64(Integer), 2021-04-01 13:29:30.794(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-1] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==>  Preparing: select is_comment_enabled from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==    Columns: is_comment_enabled
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==>  Preparing: select is_published from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==    Columns: is_published
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==>  Preparing: select password from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==    Columns: password
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==        Row: 
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=? and blog_id=?
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 0(Integer), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 2
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.blog_id = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 0(Integer), 1(Long), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), -1(Long), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 1, 1321, 3123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:30, 0, , -1, null
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-6] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 2, 1321, 123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:35, 0, , 1, 1321
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 2(Long)
+""2021-04-01 === [http-nio-8090-exec-6] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 0
+""2021-04-01 === [http-nio-8090-exec-8] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /about(String), GET(String), {}(String), 访问页面(String), 关于我(String), (String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 11(Integer), 2021-04-01 13:30:02.582(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-3] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == ==>  Preparing: select value from about where name_en="commentEnabled"
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == ==> Parameters: 
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==    Columns: value
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==        Row: <<BLOB>>
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == com.jonm.dao.AboutMapper.getAboutCommentEnabled == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=?
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 1(Integer)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 1(Integer), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-9] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 0
+""2021-04-01 === [http-nio-8090-exec-9] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==>  Preparing: select b.id, b.title, b.content, b.is_appreciation, b.is_comment_enabled, b.is_top, b.create_time, b.update_time, b.views, b.words, b.read_time, b.password, c.category_name, t.tag_name as tag_name, t.color from (((blog as b left join category as c on b.category_id=c.id) left join blog_tag as bt on b.id=bt.blog_id) left join tag as t on bt.tag_id=t.id) where b.id=? and b.is_published=true
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==    Columns: id, title, content, is_appreciation, is_comment_enabled, is_top, create_time, update_time, views, words, read_time, password, category_name, tag_name, color
+""2021-04-01 === [http-nio-8090-exec-3] == TRACE == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==        Row: 1, Test, <<BLOB>>, 1, 1, 0, 2021-03-28 17:00:05, 2021-03-28 17:00:05, 0, 1413, 7, , 个人项目, Mysql, red
+""2021-04-01 === [http-nio-8090-exec-3] == DEBUG == com.jonm.dao.BlogMapper.getBlogByIdAndIsPublished == <==      Total: 1
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == ==> Parameters: eeb5350a-d4ba-4833-82b3-625b6b1b536f(String), /blog(String), GET(String), {"id":1,"jwt":""}(String), 查看博客(String), Test(String), 文章标题：Test(String), 192.168.189.1(String), 内网IP|内网IP(String), Windows 10(String), Chrome 88.0.4324.182(String), 58(Integer), 2021-04-01 13:30:11.15(Timestamp), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36(String)
+""2021-04-01 === [sendSimpleMail-4] == DEBUG == com.jonm.dao.VisitLogMapper.saveVisitLog == <==    Updates: 1
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.config.JwtLoginFilter == Did not match request to Ant [pattern='/admin/login']
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==>  Preparing: select is_comment_enabled from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==    Columns: is_comment_enabled
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getCommentEnabledByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==>  Preparing: select is_published from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==    Columns: is_published
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getPublishedByBlogId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==>  Preparing: select password from blog where id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == ==> Parameters: 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==    Columns: password
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == com.jonm.dao.BlogMapper.getBlogPassword == <==        Row: 
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == com.jonm.dao.BlogMapper.getBlogPassword == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==>  Preparing: select count(*) from comment where page=? and blog_id=?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == ==> Parameters: 0(Integer), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==    Columns: count(*)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==        Row: 2
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.jonm.dao.CommentMapper.countByPageAndIsPublished == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.blog_id = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == ==> Parameters: 0(Integer), 1(Long), -1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==    Columns: count(0)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==        Row: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId_COUNT == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc LIMIT ?
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), -1(Long), 5(Integer)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 1, 1321, 3123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:30, 0, , -1, null
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 1(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==    Columns: id, nickname, content, avatar, create_time, is_admin_comment, website, parent_comment_id, parent_comment_nickname
+""2021-04-01 === [http-nio-8090-exec-10] == TRACE == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==        Row: 2, 1321, 123, /img/comment-avatar/4.jpg, 2021-03-28 18:21:35, 0, , 1, 1321
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 1
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.blog_id=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == ==> Parameters: 0(Integer), 1(Long), 2(Long)
+""2021-04-01 === [http-nio-8090-exec-10] == DEBUG == c.j.d.C.getPageCommentListByPageAndParentCommentId == <==      Total: 0
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.concurrent.ThreadPoolTaskExecutor == Shutting down ExecutorService 'sendEmilTaskExecutor'
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == o.s.scheduling.quartz.SchedulerFactoryBean == Shutting down Quartz Scheduler
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == org.quartz.core.QuartzScheduler == Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closing ...
+""2021-04-01 === [SpringContextShutdownHook] == INFO  == com.alibaba.druid.pool.DruidDataSource == {dataSource-1} closed
+"
